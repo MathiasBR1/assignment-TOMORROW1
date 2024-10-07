@@ -71,3 +71,43 @@ desfaz uma mudança que já teve commit efetuado, mas não foi enviada para o re
 
  git revert HEAD
 cria um novo commit desfazendo as mudanças(já que não dá pra alterar diretamente o repositório remoto)
+
+
+
+
+git branch nome-da-branch
+
+cria uma nova branch com o nome especificado
+
+
+git checkout -b nome-da-branch
+
+vai para a Branch especificada(se não existir, cria uma branch), também pode ser utilizado para se mover entre versões da mesma branch, por meio de:
+
+git checkout branch
+Se move para o último commit dessa branch.
+
+git checkout -b branch
+Se move para a branch, criando-a caso não exista.
+
+git checkout <id do commit>
+Se move para o commit passado
+
+git checkout tags/<nome da tag>
+Se move para o commit com aquela tag
+
+
+
+git merge <nome da branch com a qual se quer juntar>
+
+Junta as mudanças feitas na branch em que se está com a branch especificada por meio de um commit na branch em que se está
+
+
+git merge --no-ff <branch>
+
+Atualiza a Branch atual com alguma alteração em uma versão antiga dessa mesma branch
+
+
+git rebase <branch>
+
+Muito pouco usado, pois altera o histórico, junta commit a commit 2 branches, criando uma nova branch que substutui as outras 2, como se elas sequer tivessem existido
