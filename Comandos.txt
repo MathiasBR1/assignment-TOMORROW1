@@ -33,3 +33,25 @@ git rm(e suas variações)
 Remove o(s) arquivo(s) citado(s) do pacote de mudanças para ser enviado para commit
 
 
+git remote add origin <url>
+
+Estabelece uma conexão com um repositório remoto
+
+
+git push -u origin master
+
+Atualiza o Repositório remoto da branch principal(master) com aquilo que está no repositório local
+
+
+git push --set-upstream origin nome-da-branch
+Atualiza o Repositório remoto da branch especificada
+
+
+git clone <url HTTPS ou SSH ref> ou git repo clone <nome>
+
+Copia um repositório remoto 
+
+
+git pull origin <nome da branch>
+
+Atualiza o Repositório local com o repositório remoto (se for utilizado sem o nome, atualiza com o da Branch em que se está)
