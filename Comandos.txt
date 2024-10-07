@@ -55,3 +55,19 @@ Copia um repositório remoto
 git pull origin <nome da branch>
 
 Atualiza o Repositório local com o repositório remoto (se for utilizado sem o nome, atualiza com o da Branch em que se está)
+
+
+
+Comandos para se desfazer Mudanças:
+
+ git checkout <nome do arquivo>
+desfaz uma mudança que ainda não foi adicionada
+
+ git reset HEAD <nome do arquivo>
+desfaz uma mudança que já foi adicionada, mas não teve commit efetuado
+
+   git reset HEAD~
+desfaz uma mudança que já teve commit efetuado, mas não foi enviada para o repositório remoto
+
+ git revert HEAD
+cria um novo commit desfazendo as mudanças(já que não dá pra alterar diretamente o repositório remoto)
