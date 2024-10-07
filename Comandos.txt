@@ -26,3 +26,10 @@ Adiciona o(s) arquivo(s) citado(s) dentro do pacote de mudanças para ser enviad
 git commit -m “Mensagem do Commit”
 
 Envia um pacote de Mudanças para o Repositório local
+
+
+git rm(e suas variações)
+
+Remove o(s) arquivo(s) citado(s) do pacote de mudanças para ser enviado para commit
+
+
