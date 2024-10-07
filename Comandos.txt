@@ -6,3 +6,13 @@ Configura o nome relacionado àquele trabalho envolvendo github
 git config --global user.email "fulanoDeTal@email.com"
 
 Configura o Email relacionado àquele trabalho envolvendo Github
+
+
+git init
+
+Inicia o Github
+
+
+git status
+
+Apresenta Algumas informações importantes sobre a relação do arquivo(se há commits para serem feitos, em qual branch se está, dentre outros)
