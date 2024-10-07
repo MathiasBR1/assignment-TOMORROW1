@@ -16,3 +16,13 @@ Inicia o Github
 git status
 
 Apresenta Algumas informações importantes sobre a relação do arquivo(se há commits para serem feitos, em qual branch se está, dentre outros)
+
+
+Git Add(e suas variações)
+
+Adiciona o(s) arquivo(s) citado(s) dentro do pacote de mudanças para ser enviado para commits
+
+
+git commit -m “Mensagem do Commit”
+
+Envia um pacote de Mudanças para o Repositório local
