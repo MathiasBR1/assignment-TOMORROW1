@@ -111,3 +111,18 @@ Atualiza a Branch atual com alguma alteração em uma versão antiga dessa mesma
 git rebase <branch>
 
 Muito pouco usado, pois altera o histórico, junta commit a commit 2 branches, criando uma nova branch que substutui as outras 2, como se elas sequer tivessem existido
+
+
+git merge --abort
+
+Caso ocorra algum erro no merge, é possível cancela-local
+
+
+
+git remote add <apelido> <URL>
+
+adiciona um apelido a um repositório remoto, assim, não é necessário ficar utilizando a URL o tempo todo, tem alguns comandos auxiliares:
+git remote -v Lista todos os repositórios remotos com apelido.
+git remote rm <apelido> Remove o apelido.
+git remote rename <antigo> <novo> Renomeia o apelido.
+git remote set-url <apelido> <URL> Muda a URL associada àquele apelido.
