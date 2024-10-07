@@ -1,0 +1,8 @@
+git config --global user.name "Fulano de Tal"
+
+Configura o nome relacionado àquele trabalho envolvendo github
+
+
+git config --global user.email "fulanoDeTal@email.com"
+
+Configura o Email relacionado àquele trabalho envolvendo Github
