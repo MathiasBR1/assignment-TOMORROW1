@@ -135,3 +135,11 @@ em uma linha de descrição e explicar o que mudou e porque
 No slide 33, exemplos de commits ruins e commits bons são apresentados
 
 No slide 34, mais boas práticas são apresentadas: cada commit deve mudar apenas uma coisa por organização, 
+
+No slide 35, o conceito de workflow é apresentado, bem como 2 possibilidades de workflow diferetes:
+Fluxo centralizado: todos trabalham em uma mesma branch, o que pode gerar problemas, uma vez que commits errados prejudicam a todos
+Fluxo com feature branches: cada tarefa é desenvolvida em uma branch diferente
+No slide 36, mais uma possibilidade de workflow é apresentada, fluxo com bifurcação:
+é feita uma bifurcação do repositório principal, operações que alteram alguma coisa nunca vão para a principal, mas apenas para o clone
+do clone, vão para a principal por meio de merge/pull request
+
