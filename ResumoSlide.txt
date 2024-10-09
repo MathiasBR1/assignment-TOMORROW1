@@ -124,3 +124,14 @@ No slide 28, uma solução é apresentada por meio do git abort, porém esse ape
 No slide 29, outra solução é apresentada, que é escolher entre uma das opções de merge
 
 já no slide 30, outra solução apresentada é reescrever manualmente aquela parte do código, resolvendo o conflito
+
+No slide 31, o conceito de merge request é apresentado, que permite que uma alteração não seja efetuada diretamente, mas requisitada,
+assim, passará por uma revisão manual antes de ser efetivada, permitindo que conflitos sejam resolvidos antes de efetuar o merge
+
+No slide 32, boas práticas para commit são apresentadas, são essas separar o assunto do título, começar o título com letra maiúscula,
+não finalizar a descrição com ponto, começar o assunto com a terceira pessoa de forma que se refere ao commit, não passar de 72 caracteres
+em uma linha de descrição e explicar o que mudou e porque
+
+No slide 33, exemplos de commits ruins e commits bons são apresentados
+
+No slide 34, mais boas práticas são apresentadas: cada commit deve mudar apenas uma coisa por organização, 
