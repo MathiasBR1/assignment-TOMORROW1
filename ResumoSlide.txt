@@ -27,3 +27,13 @@ Issue Tracking, o sistema usado para gerenciar Issues.
 
 No slide 15, aprenseta-se o conceito de Milestone, que é um grupo de Issues, além de apresentar a importância de um comitê de controle de
 Mudanças, responsável por revisar, aprovar e/ou rejeitar possíveis mudanças em um projeto
+
+No slide 16, há uma exemplificação de como uma issue seria aplicada na prática por meio do GitHub, Já nos slides 17 há uma imagem que exemplifica
+um problema de não se aplicar o controle de mudanças
+
+No slide 18, há a intrudução ao controle de versões, bem como alguns problemas que podem surgir caso esse não seja aplicado, dos quais o principal
+é a não escalabilidade do projeto
+
+No slide 19, a tecnologia GIT é citada como útil na aplicação do controle de versões
+
+No slide 20, há a apresentação de alguns conceitos importantes como Diretório de trabalho, Repositório e Histórico de versão
