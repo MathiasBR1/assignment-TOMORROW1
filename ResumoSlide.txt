@@ -44,3 +44,15 @@ para responder acerca dos conhecimentos adquiridos na primeira aula
 
 Aula 2: 
 No slide 1 da aula 2, novamente são apresentados os orientadores do curso
+
+No slide 2, há um retorno para a aula anterior, além de um questionamento acerca da ferramenta que se é utilizada no controle de versão
+questionamento esse respondido no slide 3: GIT, Mercurial ou Subversion
+
+No slide 4, há um foco na apresentação da tecnologia GIT, a tecnologia de controle de versão mais conhecida do mundo, de código aberto,
+com uma breve história acerca de sua origem e comentários acerca de ser um sistema de controle de versão distribuido, isto é, todos os 
+usuários tem acesso a todas as mudanças de todos os usuários.
+
+No slide 5 há um tutorial de como se instalar o GIT, bem como o link para sua instalação, além da apresentação do comando Git version,
+que apresenta a versão do git que se tem instalada
+
+No slide 6 há imagens que exemplificam alguns serviços de hospedagem git mais conhecidos: Github, Gitlab e Atlassian BitBucket
