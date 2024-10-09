@@ -56,3 +56,13 @@ No slide 5 há um tutorial de como se instalar o GIT, bem como o link para sua i
 que apresenta a versão do git que se tem instalada
 
 No slide 6 há imagens que exemplificam alguns serviços de hospedagem git mais conhecidos: Github, Gitlab e Atlassian BitBucket
+
+No slide 7 há uma explicação mais detalhada acerca do serviço do GitHub, o mais utilizado serviço de hospedagem da tecnologia Git.
+Também há um comentário acerca da presença de códigos públicos e privados no GitHub desenvolvidos pela comunidade, no qual pode-se
+modificar as versões existentes e/ou utilizar os softwares para fins comerciais.
+
+No slide 8 há uma explicação de como utilizar o GitHub por meio do VSCode
+
+No slide 9 explica-se a diferença entre os conceitos de repositório e diretório
+
+No slide 10 explica-se como configurar o github no VSCode por meio dos comandos de git config, associando um email e um nome
