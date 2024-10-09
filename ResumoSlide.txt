@@ -113,3 +113,14 @@ e execute o comando git merge branch2, criará um commit na branch 1 que se junt
 
 No slide 25, as possibilidades de merge são expandidas ao introduzir a possibilidade de juntar uma branch com uma versão anterior de si mesma, com o
 comando git merge --no ff <nome>
+
+No slide 26, o comando git rebase é apresentado, contudo, é também especificado que o comando é pouco utilizado, uma vez que reescreve o histórico
+dos commits, que vai contra uma das principais vantagens da tecnologia Git, que possibilita o acesso às versões passadas de um eventual software
+
+No slide 27, um problema é apresentado ao citar a possibilidade de 2 branches mudarem determinada área do código de forma semelhante, gerando um conflito
+
+No slide 28, uma solução é apresentada por meio do git abort, porém esse apenas procrastina o problema
+
+No slide 29, outra solução é apresentada, que é escolher entre uma das opções de merge
+
+já no slide 30, outra solução apresentada é reescrever manualmente aquela parte do código, resolvendo o conflito
