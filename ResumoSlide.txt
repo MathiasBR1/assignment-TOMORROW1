@@ -1,2 +1,14 @@
 Primeiro slide faz uma apresentação da equipe de orientadores do curso, os slides de 2 a 5 apresentam a ementa do curso e o slide 6
 comenta sobre como a distribuição da nota do curso funcionará 
+
+no slide 7, há uma apresentação do conceito de Software Configuration management ou gerenciamento de alterações, há também um questionamento
+acerca da importância de gerenciar as alterações de um software.
+
+No slide 8, alguns passos pra trás são dados no sentido de apresentar a definição de um software
+
+No slide 9, há um retorno para o questionamento do slide 7, que passa a ser respondido, uma vez que se apresentam alguns motivos para o
+Software configuration management, sendo eles: Identificação, Controle de Mudanças, Controle de Versão, Auditoria de Configuração
+
+no slide 10 há um breve resumo da história do SCM, que é dividido em 3 períodos, nos anos 50(quando os primórdios da área surge com função militar)
+entre os anos 60 e 70(A área oficialmente nasce com o seu nome atual, mas segue tendo função militar)
+a partir dos anos 80(tempos atuais)
