@@ -145,3 +145,5 @@ do clone, vão para a principal por meio de merge/pull request
 
 No slide 37, aprofunda-se o conceito de git remote, que permite conectar um repositório remoto a um repositório local. O slide ilustra a
 possibilidade de adicionar um apelido a um repositório remoto, que permite alterá-lo sem a url
+
+Os slides de 38 a 40 apresentam os critérios da atividade pontuada à qual esse resumo se refere
