@@ -83,3 +83,17 @@ do que aconteceria ao utilizar o git commit sem o "-m"
 
 o slide 16 responde o questionamento do slide passado de forma bem humorada, ao introduzir o vim, que é aberto quando aquilo especificado
 anteriormente acontece, uma ferramenta de edição de texto multiplataforma, utilizada para fazer alterações em um eventual commit
+
+No slide 17, há uma explicação acerca de como se estabelecer uma conexão entre um repositório remoto e um repositório local, por meio do comando
+git remote add origin <url>, e em seguida como alterar o repositório remoto por meio de alterações locais, por meio do comando
+git push -u origin master
+
+No slide 18 há uma explicação acerca de como se conectar diferentes repositórios, por meio do comando git clone <url https> ou <SSH ref>
+também comenta-se acerca da possiblidade de clonar por meio do GitHub cli, caso este esteja instalado na máquina
+
+no slide 19, explica-se acerca dos comandos git pull(que atualiza o repositório local com o que está no remoto) e git push(que atualiza o repositório
+remoto com aquilo que está no local). Além disso, comenta-se sobre a funcionalidade do pull, que por padrão atualiza o repositório local com as informações
+da branch em que se está, mas que pode ser feito de forma diferente por meio do comando git pull origin <nome da branch>
+
+No slide 20, há um comentário mais específico acerca do comando git clone, que copia tudo no repositório ao qual se refere, inclusive todas as versões
+e histórico de alterações, Há também um aviso para se tomar cuidado com as licensas, para não cometer pirataria.
