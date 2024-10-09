@@ -66,3 +66,20 @@ No slide 8 há uma explicação de como utilizar o GitHub por meio do VSCode
 No slide 9 explica-se a diferença entre os conceitos de repositório e diretório
 
 No slide 10 explica-se como configurar o github no VSCode por meio dos comandos de git config, associando um email e um nome
+
+No slide 11, explica-se como criar um repositório local, criando um pasta, deslocando-se para ela e digitando git init no terminal, além
+de mostrar o comando git status para verificar a situação do repositório local
+
+No slide 12, explica-se como criar um repositório remoto no site do github por meio de um botão
+
+No slide 13, o comando git add é introduzido como uma forma de adicionar mudanças para um commit
+
+No slide 14, o comando git rm e algumas de suas variações são introduzidas como uma forma de cancelar mudanças a serem enviadas para commit,
+algumas de suas variações são git rm --cached <nome do arquivo>, git rm --cached *.txt e git rm -r cached ., que respectivamente removem:
+o arquivo especificado, todos os arquivos do tipo txt e todos os arquivos.
+
+no slide 15, introduz-se o comando git commit -m, que envia um pacote de mudanças para o repositório, além de um questionamento acerca
+do que aconteceria ao utilizar o git commit sem o "-m"
+
+o slide 16 responde o questionamento do slide passado de forma bem humorada, ao introduzir o vim, que é aberto quando aquilo especificado
+anteriormente acontece, uma ferramenta de edição de texto multiplataforma, utilizada para fazer alterações em um eventual commit
