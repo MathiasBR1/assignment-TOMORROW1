@@ -111,5 +111,5 @@ git checkout se move para o último commit, git checkout <id> se move para o com
 No slide 24 apresenta-se o conceito de merge, uma funcionalidade que junta diferentes branchs por meio de um commit, caso o usuário esteja na branch 1 
 e execute o comando git merge branch2, criará um commit na branch 1 que se junta com a branch 2
 
-No slide 25, as possibilidades de merge são expandidas ao introduzir a possibilidade de juntar uma branch com uma versão anterior de si mesma, por meio do 
+No slide 25, as possibilidades de merge são expandidas ao introduzir a possibilidade de juntar uma branch com uma versão anterior de si mesma, com o
 comando git merge --no ff <nome>
