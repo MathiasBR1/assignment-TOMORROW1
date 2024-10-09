@@ -97,3 +97,19 @@ da branch em que se está, mas que pode ser feito de forma diferente por meio do
 
 No slide 20, há um comentário mais específico acerca do comando git clone, que copia tudo no repositório ao qual se refere, inclusive todas as versões
 e histórico de alterações, Há também um aviso para se tomar cuidado com as licensas, para não cometer pirataria.
+
+No slide 21, há um resumo acerca de como se desfazer mudanças, por meio de git checkout, caso não tenha sido adicionado, git reset HEAD, caso
+commit não tenha sido executado, git reset head~ caso um commit já tenha sido realizado e git revert HEAD, que é diferente dos outros, uma vez que
+não desfaz efetivamente a mudança, mas prepara um novo commit com todas as mudanças desfeitas, esse novo commit teria que ser enviado em seguida
+
+No slide 22 introduz-se o conceito de branch, bem como se locomover entre elas. git branch <nome>para criar, git checkout -b <nome> para criar e entrar
+e git push --set-upstream origin <nome> para enviar um commit para uma branch remota não principal
+
+No slide 23, expande-se acerca da funcionalidade do git checkout ao mostrar como este pode ser utilizado para se mover entre versões de uma mesma branch,
+git checkout se move para o último commit, git checkout <id> se move para o commit especificado e git checkout tags <tag> se move para o commit com aquela tag
+
+No slide 24 apresenta-se o conceito de merge, uma funcionalidade que junta diferentes branchs por meio de um commit, caso o usuário esteja na branch 1 
+e execute o comando git merge branch2, criará um commit na branch 1 que se junta com a branch 2
+
+No slide 25, as possibilidades de merge são expandidas ao introduzir a possibilidade de juntar uma branch com uma versão anterior de si mesma, por meio do 
+comando git merge --no ff <nome>
