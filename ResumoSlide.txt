@@ -12,3 +12,18 @@ Software configuration management, sendo eles: Identificação, Controle de Muda
 no slide 10 há um breve resumo da história do SCM, que é dividido em 3 períodos, nos anos 50(quando os primórdios da área surge com função militar)
 entre os anos 60 e 70(A área oficialmente nasce com o seu nome atual, mas segue tendo função militar)
 a partir dos anos 80(tempos atuais)
+
+No slide 11, há a apresentação de alguns conceitos importantes, como o de Item de Confiuguração, Baseline e Auditoria de Configuração,
+além de citar algumas vantagens da aplicação do SCM, como assegurar um estado saudável e rastreável do software
+
+No slide 12, ressalta-se que todas as pessoas envolvidas num software, do desenvolvedor ao gerente, precisam ter conhecimento de SCM
+
+no Slide 13, define-se o Controle de mudança o conceito de gerenciar e autorizar eventuais mudanças em um software, no qual possíveis mudanças
+serão propostas, avaliadas e revisadas, e, só então, caso aprovadas, implementadas no código, além disso, cita como uma vantagem desse conceito
+a capacidade de manter a estabiliade de um software.
+
+No slide 14, apresenta-se o conceito de Issue, bem como as características que uma issue pode ter, além disso, há a apresentação do conceito de 
+Issue Tracking, o sistema usado para gerenciar Issues.
+
+No slide 15, aprenseta-se o conceito de Milestone, que é um grupo de Issues, além de apresentar a importância de um comitê de controle de
+Mudanças, responsável por revisar, aprovar e/ou rejeitar possíveis mudanças em um projeto
