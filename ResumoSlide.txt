@@ -37,3 +37,10 @@ No slide 18, há a intrudução ao controle de versões, bem como alguns problem
 No slide 19, a tecnologia GIT é citada como útil na aplicação do controle de versões
 
 No slide 20, há a apresentação de alguns conceitos importantes como Diretório de trabalho, Repositório e Histórico de versão
+
+No slide 21 há uma imagem cômica acerca de problemas da não implementação do controle de versões e no slide 22 há o link de um formulário
+para responder acerca dos conhecimentos adquiridos na primeira aula
+
+
+Aula 2: 
+No slide 1 da aula 2, novamente são apresentados os orientadores do curso
