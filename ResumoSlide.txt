@@ -143,3 +143,5 @@ No slide 36, mais uma possibilidade de workflow é apresentada, fluxo com bifurc
 é feita uma bifurcação do repositório principal, operações que alteram alguma coisa nunca vão para a principal, mas apenas para o clone
 do clone, vão para a principal por meio de merge/pull request
 
+No slide 37, aprofunda-se o conceito de git remote, que permite conectar um repositório remoto a um repositório local. O slide ilustra a
+possibilidade de adicionar um apelido a um repositório remoto, que permite alterá-lo sem a url
