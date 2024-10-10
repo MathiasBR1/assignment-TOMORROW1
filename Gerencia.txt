@@ -20,3 +20,5 @@ Issue tracking-sistema utilizado para gerenciar as issues
 Milestone-Conjunto de múltiplas Issues que direciona um objetivo geral
 
 Comitê de controle de mudanças- Grupo responsável por gerenciar, analisar e rejeitar/aprovar eventuais mudanças em um projeto
+
+Controle de Versão-Subárea do SCM que gerencia as diferentes versões de um projeto
