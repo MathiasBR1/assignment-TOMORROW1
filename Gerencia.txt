@@ -18,3 +18,5 @@ Issue-Mudança a ser realizada dentro de um determinado software(tarefa)
 Issue tracking-sistema utilizado para gerenciar as issues
 
 Milestone-Conjunto de múltiplas Issues que direciona um objetivo geral
+
+Comitê de controle de mudanças- Grupo responsável por gerenciar, analisar e rejeitar/aprovar eventuais mudanças em um projeto
