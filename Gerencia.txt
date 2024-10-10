@@ -26,3 +26,5 @@ Controle de Versão-Subárea do SCM que gerencia as diferentes versões de um pr
 Diretório-Pasta que contém os arquivos de um determinado projeto
 
 Repositório-Local que guarda as diferentes versões de um projeto e os dados associados a ela
+
+Histórico de versão- registro de modificações de um projeto
