@@ -1,0 +1,3 @@
+SCM- Gerenciamento de Configuração de Software: é a área geral que contém as subáreas de controle de versão e controle de mudanças
+
+Software- é um conjunto de instruções para um computador executar
