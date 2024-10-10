@@ -3,3 +3,6 @@ SCM- Gerenciamento de Configuração de Software: é a área geral que contém a
 Software- é um conjunto de instruções para um computador executar
 
 Artefatos- os componentes de um software
+
+Item de configuração- artefato ou conjunto de artefatos que vão ser gerenciados
+
