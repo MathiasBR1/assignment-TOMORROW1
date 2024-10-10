@@ -22,3 +22,7 @@ Milestone-Conjunto de múltiplas Issues que direciona um objetivo geral
 Comitê de controle de mudanças- Grupo responsável por gerenciar, analisar e rejeitar/aprovar eventuais mudanças em um projeto
 
 Controle de Versão-Subárea do SCM que gerencia as diferentes versões de um projeto
+
+Diretório-Pasta que contém os arquivos de um determinado projeto
+
+Repositório-Local que guarda as diferentes versões de um projeto e os dados associados a ela
