@@ -9,3 +9,6 @@ Item de configuração- artefato ou conjunto de artefatos que vão ser gerenciad
 Baseline-uma versão já revisada de um item de Configuração
 
 Auditoria de Configuração-processo de revisão do software para garantir que está de acordo com as especificações
+
+Controle de Mudanças-subárea dentro do Gerenciamento de configuração de Software que é responsável por gerenciar como mudanças serão 
+aplicadas dentro de um determinado software, muito importante para mante-lo estável durante a implementação de novas features
