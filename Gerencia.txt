@@ -6,3 +6,4 @@ Artefatos- os componentes de um software
 
 Item de configuração- artefato ou conjunto de artefatos que vão ser gerenciados
 
+Baseline-uma versão já revisada de um item de Configuração
