@@ -126,3 +126,8 @@ git remote -v Lista todos os repositórios remotos com apelido.
 git remote rm <apelido> Remove o apelido.
 git remote rename <antigo> <novo> Renomeia o apelido.
 git remote set-url <apelido> <URL> Muda a URL associada àquele apelido.
+
+
+git branch -d <nome> deleta uma branch local
+
+git push origin --delete <nome> deleta uma branch remota
