@@ -1,0 +1,133 @@
+git config --global user.name "Fulano de Tal"
+
+Configura o nome relacionado àquele trabalho envolvendo github
+
+
+git config --global user.email "fulanoDeTal@email.com"
+
+Configura o Email relacionado àquele trabalho envolvendo Github
+
+
+git init
+
+Inicia o Github
+
+
+git status
+
+Apresenta Algumas informações importantes sobre a relação do arquivo(se há commits para serem feitos, em qual branch se está, dentre outros)
+
+
+Git Add(e suas variações)
+
+Adiciona o(s) arquivo(s) citado(s) dentro do pacote de mudanças para ser enviado para commits
+
+
+git commit -m “Mensagem do Commit”
+
+Envia um pacote de Mudanças para o Repositório local
+
+
+git rm(e suas variações)
+
+Remove o(s) arquivo(s) citado(s) do pacote de mudanças para ser enviado para commit
+
+
+git remote add origin <url>
+
+Estabelece uma conexão com um repositório remoto
+
+
+git push -u origin master
+
+Atualiza o Repositório remoto da branch principal(master) com aquilo que está no repositório local
+
+
+git push --set-upstream origin nome-da-branch
+Atualiza o Repositório remoto da branch especificada
+
+
+git clone <url HTTPS ou SSH ref> ou git repo clone <nome>
+
+Copia um repositório remoto 
+
+
+git pull origin <nome da branch>
+
+Atualiza o Repositório local com o repositório remoto (se for utilizado sem o nome, atualiza com o da Branch em que se está)
+
+
+
+Comandos para se desfazer Mudanças:
+
+ git checkout <nome do arquivo>
+desfaz uma mudança que ainda não foi adicionada
+
+ git reset HEAD <nome do arquivo>
+desfaz uma mudança que já foi adicionada, mas não teve commit efetuado
+
+   git reset HEAD~
+desfaz uma mudança que já teve commit efetuado, mas não foi enviada para o repositório remoto
+
+ git revert HEAD
+cria um novo commit desfazendo as mudanças(já que não dá pra alterar diretamente o repositório remoto)
+
+
+
+
+git branch nome-da-branch
+
+cria uma nova branch com o nome especificado
+
+
+git checkout -b nome-da-branch
+
+vai para a Branch especificada(se não existir, cria uma branch), também pode ser utilizado para se mover entre versões da mesma branch, por meio de:
+
+git checkout branch
+Se move para o último commit dessa branch.
+
+git checkout -b branch
+Se move para a branch, criando-a caso não exista.
+
+git checkout <id do commit>
+Se move para o commit passado
+
+git checkout tags/<nome da tag>
+Se move para o commit com aquela tag
+
+
+
+git merge <nome da branch com a qual se quer juntar>
+
+Junta as mudanças feitas na branch em que se está com a branch especificada por meio de um commit na branch em que se está
+
+
+git merge --no-ff <branch>
+
+Atualiza a Branch atual com alguma alteração em uma versão antiga dessa mesma branch
+
+
+git rebase <branch>
+
+Muito pouco usado, pois altera o histórico, junta commit a commit 2 branches, criando uma nova branch que substutui as outras 2, como se elas sequer tivessem existido
+
+
+git merge --abort
+
+Caso ocorra algum erro no merge, é possível cancela-local
+
+
+
+git remote add <apelido> <URL>
+
+adiciona um apelido a um repositório remoto, assim, não é necessário ficar utilizando a URL o tempo todo, tem alguns comandos auxiliares:
+git remote -v Lista todos os repositórios remotos com apelido.
+git remote rm <apelido> Remove o apelido.
+git remote rename <antigo> <novo> Renomeia o apelido.
+git remote set-url <apelido> <URL> Muda a URL associada àquele apelido.
+
+
+git branch -d <nome> deleta uma branch local
+
+git push origin --delete <nome> deleta uma branch remota
