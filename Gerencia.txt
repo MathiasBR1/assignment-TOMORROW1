@@ -1,0 +1,32 @@
+SCM- Gerenciamento de Configuração de Software: é a área geral que contém as subáreas de controle de versão e controle de mudanças
+
+Software- é um conjunto de instruções para um computador executar
+
+Artefatos- os componentes de um software
+
+Item de configuração- artefato ou conjunto de artefatos que vão ser gerenciados
+
+Baseline-uma versão já revisada de um item de Configuração
+
+Auditoria de Configuração-processo de revisão do software para garantir que está de acordo com as especificações
+
+Controle de Mudanças-subárea dentro do Gerenciamento de configuração de Software que é responsável por gerenciar como mudanças serão 
+aplicadas dentro de um determinado software, muito importante para mante-lo estável durante a implementação de novas features
+
+Issue-Mudança a ser realizada dentro de um determinado software(tarefa)
+
+Issue tracking-sistema utilizado para gerenciar as issues
+
+Milestone-Conjunto de múltiplas Issues que direciona um objetivo geral
+
+Comitê de controle de mudanças- Grupo responsável por gerenciar, analisar e rejeitar/aprovar eventuais mudanças em um projeto
+
+Controle de Versão-Subárea do SCM que gerencia as diferentes versões de um projeto
+
+Diretório-Pasta que contém os arquivos de um determinado projeto
+
+Repositório-Local que guarda as diferentes versões de um projeto e os dados associados a ela
+
+Histórico de versão- registro de modificações de um projeto
+
+Workflow- metodo de trabalho de um projeto, podendo ser centralizado, com feature branches ou com bifurcação
